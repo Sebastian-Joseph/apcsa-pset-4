@@ -6,7 +6,7 @@ public class Exercise2 {
         Scanner inches = new Scanner(System.in);
         DecimalFormat deci = new DecimalFormat("0");
 
-        System.out.println("Inches: ");
+        System.out.println("Inches : ");
         double in = inches.nextDouble();
 
         double miles = in / 63360;
@@ -15,8 +15,8 @@ public class Exercise2 {
         double feet = left1 / 12;
         double leftoverinches = left1 % 12;
 
-        System.out.println("Miles: " + deci.format(miles));
-        System.out.println("Feet: " + deci.format(feet));
-        System.out.println("Inches: " + deci.format(leftoverinches));
+        System.out.println("Miles : " + deci.format(miles));
+        System.out.println("Feet : " + deci.format(feet));
+        System.out.println("Inches : " + deci.format(leftoverinches));
     }
 }

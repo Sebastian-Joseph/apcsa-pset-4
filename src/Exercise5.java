@@ -13,7 +13,7 @@ public class Exercise5 {
         double area = Math.PI * Math.pow(radius, 2);
         double circumference = 2 * Math.PI * radius;
 
-        System.out.println("Area: " + deci.format(area));
-        System.out.println("Circumference: " + deci.format(circumference));
+        System.out.println("Area : " + deci.format(area));
+        System.out.println("Circumference : " + deci.format(circumference));
     }
 }

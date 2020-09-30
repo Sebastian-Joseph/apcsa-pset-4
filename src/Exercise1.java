@@ -6,11 +6,11 @@ public class Exercise1 {
         Scanner weather = new Scanner(System.in);
         DecimalFormat deci = new DecimalFormat("0.00");
 
-        System.out.println("Temperature: ");
+        System.out.println("Temperature : ");
         double temp = weather.nextDouble();
 
 
-        System.out.println("Wind Speed: ");
+        System.out.println("Wind Speed : ");
         double windspeed = weather.nextDouble();
 
         double a = .6215*temp;
@@ -19,6 +19,6 @@ public class Exercise1 {
 
         double windchill = 35.74 + a + (b - 35.75) * c;
 
-        System.out.println("Wind Chill: " + deci.format(windchill));
+        System.out.println("Wind Chill : " + deci.format(windchill));
     }
 }

@@ -14,8 +14,8 @@ public class Exercise7 {
         double perimeter = side * 6;
 
 
-        System.out.println("Area: " + deci.format(area));
-        System.out.println("Perimeter: " + deci.format(perimeter));
+        System.out.println("Area : " + deci.format(area));
+        System.out.println("Perimeter : " + deci.format(perimeter));
 
     }
 }

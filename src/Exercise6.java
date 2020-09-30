@@ -16,8 +16,8 @@ public class Exercise6 {
        double perimeter = (length + width) * 2;
        double diagonal = Math.sqrt(length * length + width * width);
 
-        System.out.println("Area: " + deci.format(area));
-        System.out.println("Perimeter: " + deci.format(perimeter));
-        System.out.println("Diagonal: " + deci.format(diagonal));
+        System.out.println("Area : " + deci.format(area));
+        System.out.println("Perimeter : " + deci.format(perimeter));
+        System.out.println("Diagonal : " + deci.format(diagonal));
     }
 }
