@@ -15,8 +15,8 @@ public class Exercise4 {
         double meters = left1 / 100;
         double leftovercentimeters = left1 % 100;
 
-        System.out.println("Miles: " + deci.format(kilometers));
-        System.out.println("Feet: " + deci.format(meters));
-        System.out.println("Inches: " + deci.format(leftovercentimeters));
+        System.out.println("Kilometer: " + deci.format(kilometers));
+        System.out.println("Meters: " + deci.format(meters));
+        System.out.println("Centimeters: " + deci.format(leftovercentimeters));
     }
 }
